@@ -868,3 +868,12 @@ ul.contacto li a{
         }
     }
 }
+
+@media (max-width:  460px){
+    .portafolio{
+        padding:0px;
+        .item{
+            width:100%;
+        }
+    }
+}
