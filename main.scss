@@ -872,7 +872,7 @@ ul.contacto li a{
 
 .scrollTop{
     position:fixed;
-    right:-6%;
+    right:-10%;
     bottom:10%;
     width:40px;
     height:40px;
@@ -910,5 +910,8 @@ ul.contacto li a{
         .item{
             width:100%;
         }
+    }
+    body {
+        padding:10px;
     }
 }

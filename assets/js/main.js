@@ -32,7 +32,7 @@ $(function(){
 	    //sacamos el desplazamiento actual de la página
 	    var desplazamientoActual = $(document).scrollTop();
 	    //accedemos al control de "ir arriba"
-	    if (desplazamientoActual > 200) {
+	    if (desplazamientoActual > 500) {
 	        jQuery('.scrollTop').css({ 'right': '2%' });
 	    }
 	    //controlo si debo ocultar el botón
