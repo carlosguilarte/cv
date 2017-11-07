@@ -740,7 +740,7 @@ ul.contacto li a{
                 border-bottom: 2px solid rgba(66,168,192,0.5);
 
                     &:hover{
-                        border-bottom: 2px solid #42A8C0;
+                        border-bottom: 2px solid #8eb82b;
                     }
                }
                .tipo{
@@ -761,46 +761,53 @@ ul.contacto li a{
 
 }
 
-.todocuba{
-        background:url(../img/portafolio/todocuba.png);
-        background-size:85%;
-        background-repeat: no-repeat;
-        background-position:center;
+        .todocuba{
+            background:url(../img/portafolio/todocuba.png);
+            background-size:cover;
+            background-repeat: no-repeat;
+            
         }
 
         .eldiariohabla{
             background:url(../img/portafolio/eldiariohabla.png);
-            background-size:85%;
+            background-size:cover;
             background-repeat: no-repeat;
-            background-position:center;
+            
         }
 
         .islalocal{
             background:url(../img/portafolio/islalocal.png);
-            background-size:85%;
+            background-size:cover;
             background-repeat: no-repeat;
-            background-position:center;
+            
         }
 
          .envioscaracol{
             background:url(../img/portafolio/envioscaracol.png);
-            background-size:85%;
+            background-size:cover;
             background-repeat: no-repeat;
-            background-position:center;
+            
         }
 
         .mejortusalud{
             background:url(../img/portafolio/mejortusalud.png);
-            background-size:85%;
+            background-size:cover;
             background-repeat: no-repeat;
-            background-position:center;
+            
         }
 
         .sms{
             background:url(../img/portafolio/sms.png);
-            background-size:85%;
+            background-size:cover;
             background-repeat: no-repeat;
-            background-position:center;
+            
+        }
+
+        .awb{
+            background:url(../img/portafolio/awb.png);
+            background-size:cover;
+            background-repeat: no-repeat;
+            
         }
 
 
