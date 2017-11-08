@@ -418,6 +418,25 @@ table {
 }
 
 
+$baseFontSize : 14;
+@function rem($pixels, $context: $baseFontSize) {
+    
+    // Use : font-size:rem(16);
+
+  @if (unitless($pixels)) {
+    $pixels: $pixels * 1px;
+  }
+
+  @if (unitless($context)) {
+    $context: $context * 1px;
+  }
+
+  @return $pixels / $context * 1rem;
+}
+
+
+
+
 .colorBase{
     color:#42A8C0;
 }
@@ -735,7 +754,7 @@ ul.contacto li a{
         .foto{
             width:100%;
             max-width:100%;
-            height:200px;
+            height:235px;
             cursor:pointer;
         }
 
