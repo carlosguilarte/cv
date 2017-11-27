@@ -717,11 +717,31 @@ ul.contacto li a{
     height: 12px;
 }
 
-.habilidades .item{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-bottom:5px;
+.habilidades {
+
+    .item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom:5px;
+    }
+
+    
+}
+
+.container-habilidades{
+    display:flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+
+    .items-h{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size:4rem;
+        width: 33.333%;
+        margin-bottom:30px;
+    }
 }
 
 .habilidad{
