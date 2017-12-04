@@ -771,6 +771,10 @@ ul.contacto li a{
         box-shadow:1px 1px 5px #efefef;
         margin-bottom:30px;
 
+        &:hover{
+            box-shadow: 0 0 0 5px #D7D7DB;
+        }
+
         .foto{
             width:100%;
             max-width:100%;
@@ -856,6 +860,13 @@ ul.contacto li a{
 
         .awb{
             background:url(../img/portafolio/awb.png);
+            background-size:cover;
+            background-repeat: no-repeat;
+            
+        }
+        
+        .cloudgym{
+            background:url(../img/portafolio/cloudgym.png);
             background-size:cover;
             background-repeat: no-repeat;
             
