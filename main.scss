@@ -543,7 +543,7 @@ $baseFontSize : 14;
     border-radius:50%;
     box-shadow: 1px 0px 1px #ddd;
     margin: 0 auto;
-    background: url(../img/foto.jpg);
+    background: url(../img/foto.png);
     background-position: center;
     background-size: cover;
     background-clip: border-box;
@@ -846,6 +846,13 @@ ul.contacto li a{
 
         .mejortusalud{
             background:url(../img/portafolio/mejortusalud.png);
+            background-size:cover;
+            background-repeat: no-repeat;
+            
+        }
+
+        .pacotillas{
+            background:url(../img/portafolio/pacotillas.png);
             background-size:cover;
             background-repeat: no-repeat;
             

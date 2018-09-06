@@ -12,26 +12,16 @@ var plumber = require("gulp-plumber");
 
 // configuraciòn BrowserSync
 
+
 gulp.task('browser-sync', function() {
-    var file = [
-        './main.css',
-        './**/*.html'
-    ];
-
-    browserSync.init(file, {
-        proxy: 'dev.cv:8888'
-    });
-});
-
-
-
-/*gulp.task('browser-sync', function() {
     browserSync.init({
         server: {
             baseDir: "./"
         }
     });
-});*/
+});
+
+
 
 // Compilar el sass en CSS y autoinyecta en los navegadores
 gulp.task('sass', function() {
